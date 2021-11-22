@@ -200,3 +200,59 @@ To enhance your KaseiCoin crowdsale with this added functionality, complete the 
     * When sending ether to the contract, make sure that you meet the contract’s `goal`. Then, finalize the sale using the `Crowdsale` contract's `finalize` function. To finalize the sale, `isOpen` must return false (`isOpen` comes from `TimedCrowdsale` and checks to see whether the `close` time has passed yet). If you set the `goal` to 300 ether, for example, you may need to purchase tokens from multiple accounts in order to meet the goal. If you run out of pre-funded accounts in Ganache, you can create a new workspace.
 
     * View your tokens in MetaMask. In MetaMask, click Add Token, then click Custom Token,  and enter the token contract’s address. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallet as more than a few wei worth.
+
+
+
+
+
+# Kaseicoin
+
+To purchase your very own Kaseicon, please clone the repository and import the .sol files into Remix or another IDE with similar functionality.
+
+Please see the following to make sure your files are compiled 
+
+![kasecompile](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/kasei%20compiled.jpg)
+
+And the contract Deployer 
+
+![kasecompile](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/crowdsale%20compiled.jpg)
+
+As well as the optional bit of code for more functionality 
+
+![optional](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/optional%20compiled.jpg)
+
+Afterwards make sure your are ready to deploy the contracts
+
+![ready to deploy](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/ready%20to%20deploy.jpg)
+
+The resulting deployment should look like this 
+
+![deploy](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/crowdsale.jpg) 
+
+After deployment you should have the resulting information 
+
+![deploy](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/deployed.jpg)
+
+You can then deploy the minting 
+
+![mint](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/interaction.jpg)
+
+In this screen please add the minting address, addresses approved to mint, how much or how little they can mint, and how much to mint. Be advised that KSC is denominated in wei, 
+
+so I would recommend minting trillions to see them on your MetaMask. 
+
+Also be advised you will have to pay gas for these transactions 
+
+![metamask](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/metamask%20deployment.jpg)
+
+If you require more assistance please take a look at my video on the topic 
+
+![cideo](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/unknown_2021.11.21-22.36_clip_1.mp4)
+
+
+
+
+
+
+
+
