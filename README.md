@@ -250,6 +250,14 @@ If you require more assistance please take a look at my video on the topic
 ![cideo](https://github.com/seanpatel19/Challenge-21/blob/f062c69539e0e27489b14c2620ac3336b5571c06/Images/unknown_2021.11.21-22.36_clip_1.mp4)
 
 
+## Contributors
+
+Sean Patel (myself) seanpatel076@gmail.com
+---
+
+## License
+
+License is public anyone can use or make changes to this application
 
 
 
